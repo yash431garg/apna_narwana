@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  background-color: #112d4e;
+}
+.navbar_heading {
+  color: #f5f5f5;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.7rem;
+}
+.links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: #f5f5f5;
+  color: #112d4e;
+  align-items: center;
+}
+.link {
+  padding: 15px;
+  font-size: 1.2rem;
+}
+.links :hover {
+  color: black;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.header {
+  text-align: center;
+  font-size: larger;
+}
+.header_text {
+  padding: 50px;
+  color: #252a34;
+}
+.header_img {
+  width: 60vw;
+  height: 70vh;
+}
+@media screen and (max-width: 700px) {
+  .header_img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .header_text {
+    text-align: center;
+  }
+}
+.web_info {
+  padding: 20px;
+  font-weight: 500;
+}
+
+.service {
+  padding: 50px;
+  background-color: #c9d6df;
+  margin-top: 40px;
+  font-size: large;
+  color: #112d4e;
+}
+.contact {
+  padding: 50px;
+  list-style: none;
+  text-decoration: none;
+}
+.contact_ids {
+  padding: 10px;
+  margin: 20px;
+}
+.contact_id > a {
+  padding: 10px;
+
+  text-decoration: none;
+  color: #112d4e;
+  font-size: larger;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px;
+  color: #f5f5f5;
+  background-color: #112d4e;
+}
+.about > p {
+  font-size: larger;
+  padding: 10px;
+}
+
+.city_insta {
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
